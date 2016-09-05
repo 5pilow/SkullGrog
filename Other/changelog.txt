@@ -1,0 +1,25 @@
+Changelog
+
+Version 2.0 :
+	- Added htmlspecialchars() (thanks Wassgha)
+
+Version 1.0 :
+	- Added a new bonus
+	- Improved zombies' AI (especially the jumps)
+	- Added foot animation while jumping
+	- Added sounds (heart breath, flame thrower, gaz thrower)
+	- Adhoc mode (1vs1 mode) finished. 
+	- Added settings : you can change music volume, controls mode and change your pseudo.
+	- Added a new control mode.
+	- When you create a savegame, you have to input a pseudo that will be use in submitting scores
+	- you can return to the "load game" menu from the main menu
+	- Added "delete game" to delete a savedata
+	- zombies cannot appear near you (in the camera view)
+	- bonuses are aligned with the grid
+	- thousands separator in numbers (in game, savedata...)
+	- Laser is more difficult to unlock
+	- DoubleGun is more powerful
+	- fix savedata
+
+Version beta :
+	- initial release
