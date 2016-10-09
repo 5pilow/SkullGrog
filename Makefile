@@ -31,42 +31,42 @@ open :
 cleanRessources :
 	rm -f sprites.c
 	
-## Textures
-R/sprites.c : Textures/sprites.png
-	bin2c Textures/sprites.png R/sprites.c R_sprites
+## texture
+R/sprites.c : texture/sprites.png
+	bin2c texture/sprites.png build/texture/sprites.c R_sprites
 
-R/map1.c : Textures/Map/map1.png
-	bin2c Textures/Map/map1.png R/map1.c R_map1
-R/map2.c : Textures/Map/map2.png
-	bin2c Textures/Map/map2.png R/map2.c R_map2
-R/map3.c : Textures/Map/map3.png
-	bin2c Textures/Map/map3.png R/map3.c R_map3
-R/map4.c : Textures/Map/map4.png
-	bin2c Textures/Map/map4.png R/map4.c R_map4
-R/map5.c : Textures/Map/map5.png
-	bin2c Textures/Map/map5.png R/map5.c R_map5
-R/map6.c : Textures/Map/map6.png
-	bin2c Textures/Map/map6.png R/map6.c R_map6
-R/map7.c : Textures/Map/map7.png
-	bin2c Textures/Map/map7.png R/map7.c R_map7
-R/map8.c : Textures/Map/map8.png
-	bin2c Textures/Map/map8.png R/map8.c R_map8
-R/map9.c : Textures/Map/map9.png
-	bin2c Textures/Map/map9.png R/map9.c R_map9
+R/map1.c : texture/Map/map1.png
+	bin2c texture/Map/map1.png R/map1.c R_map1
+R/map2.c : texture/Map/map2.png
+	bin2c texture/Map/map2.png R/map2.c R_map2
+R/map3.c : texture/Map/map3.png
+	bin2c texture/Map/map3.png R/map3.c R_map3
+R/map4.c : texture/Map/map4.png
+	bin2c texture/Map/map4.png R/map4.c R_map4
+R/map5.c : texture/Map/map5.png
+	bin2c texture/Map/map5.png R/map5.c R_map5
+R/map6.c : texture/Map/map6.png
+	bin2c texture/Map/map6.png R/map6.c R_map6
+R/map7.c : texture/Map/map7.png
+	bin2c texture/Map/map7.png R/map7.c R_map7
+R/map8.c : texture/Map/map8.png
+	bin2c texture/Map/map8.png R/map8.c R_map8
+R/map9.c : texture/Map/map9.png
+	bin2c texture/Map/map9.png R/map9.c R_map9
 	
-R/dh1.c : Textures/dh1.png
-	bin2c Textures/dh1.png R/dh1.c R_dh1
-R/dh2.c : Textures/dh2.png
-	bin2c Textures/dh2.png R/dh2.c R_dh2
-R/dh3.c : Textures/dh3.png
-	bin2c Textures/dh3.png R/dh3.c R_dh3
+R/dh1.c : texture/dh1.png
+	bin2c texture/dh1.png R/dh1.c R_dh1
+R/dh2.c : texture/dh2.png
+	bin2c texture/dh2.png R/dh2.c R_dh2
+R/dh3.c : texture/dh3.png
+	bin2c texture/dh3.png R/dh3.c R_dh3
 	
-R/logo.c : Textures/logoSkullGrog2.png
-	bin2c Textures/logoSkullGrog2.png R/logo.c R_logo
-R/logoGorglucks.c : Textures/logoGorglucks.png
-	bin2c Textures/logoGorglucks.png R/logoGorglucks.c R_logoGorglucks
-R/logoScenery.c : Textures/SB2010PSP.png
-	bin2c Textures/SB2010PSP.png R/logoScenery.c R_logoScenery
+R/logo.c : texture/logoSkullGrog2.png
+	bin2c texture/logoSkullGrog2.png R/logo.c R_logo
+R/logoGorglucks.c : texture/logoGorglucks.png
+	bin2c texture/logoGorglucks.png R/logoGorglucks.c R_logoGorglucks
+R/logoScenery.c : texture/SB2010PSP.png
+	bin2c texture/SB2010PSP.png R/logoScenery.c R_logoScenery
 	
 ## Sons
 R/doubleGun.c : Sons/doubleGun.wav
