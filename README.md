@@ -2,6 +2,9 @@
 
 PSP Game created in 2010
 
+http://forums.dashhacks.com/psp-programming-development/264678-%5Bhorror-show%5D-skullgrog.html
+https://www.gamergen.com/actualites/skullgrog-tuer-zombies-jusqu-mort-sera-votre-mission-47933-1
+
 ## Vidéo
 
 https://www.youtube.com/watch?v=yGCiL3lGYTI
